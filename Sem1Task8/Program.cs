@@ -15,13 +15,17 @@ if (numNLine!=null)
 
 // Проверяем условие
      
-     while (numC < numN)
+     while (numC <= numN-2)
      {
 
         Result = Result + numC + ",";
         numC = numC + 2;
 
      }
+     Result = Result+numC;
+     
+     //Result = Result.TrimEnd(',');
+
 //Выводим данные в консоль
     Console.WriteLine(Result);
 }
