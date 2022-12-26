@@ -28,7 +28,7 @@ Console.WriteLine("Это не день недели");
 }
 
 
-// // Вариант 2
+//  // Вариант 2
 
 
 // //Считываем данные с консоли
@@ -38,24 +38,28 @@ Console.WriteLine("Это не день недели");
 
 // {
 // //Создаем массив с днями недели
-//     string[] dayOfWeek = new string[7];
-//     dayOfWeek[0] = "понедельник";
-//     dayOfWeek[1] = "вторник";
-//     dayOfWeek[2] = "среда";
-//     dayOfWeek[3] = "четверг";
-//     dayOfWeek[4] = "пятница";
-//     dayOfWeek[5] = "суббота";
-//     dayOfWeek[6] = "воскресенье";
+//    string[] dayOfWeek = new string[7];
+//    dayOfWeek[0] = "рабочий";
+//    dayOfWeek[1] = "рабочий";
+//    dayOfWeek[2] = "рабочий";
+//    dayOfWeek[3] = "рабочий";
+//    dayOfWeek[4] = "рабочий";
+//    dayOfWeek[5] = "выходной";
+//    dayOfWeek[6] = "выходно ";
 
-// if (dayOfWeek=5 && dayOfWeek=6)
+// if ((dayOfWeek=5)&&(dayOfWeek=6))
 
+//  {
+
+
+//   //Выводим данные в консоль
+//  Console.WriteLine("dayOfWeek[dayOfWeek]");
+
+//  }
+// else
 // {
-
-
 //     //Выводим данные в консоль
-//     Console.WriteLine("Выходной день!");
-
+//  Console.WriteLine("dayOfWeek[dayOfWeek]");
 // }
-
-// }
+//  }
 
