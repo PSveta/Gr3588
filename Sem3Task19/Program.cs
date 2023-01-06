@@ -4,7 +4,7 @@
 
 Console.WriteLine("Введите пятизначное число: ");
 string? number = Console.ReadLine();
-// number = [5];
+// number [] = 5;
 
 
 // Проверяем число является пятизначным
