@@ -4,12 +4,13 @@
 
 Console.WriteLine("Введите пятизначное число: ");
 string? number = Console.ReadLine();
-// number [] = 5;
+int length = number.Length;
+
 
 
 // Проверяем число является пятизначным
 
-if (number.Length == 5)
+if (length == 5)
 
 // Проверяем является число палидроном
 {
@@ -26,4 +27,3 @@ else
     {
         Console.WriteLine(" Введено не пятизначное число");
     }
-
