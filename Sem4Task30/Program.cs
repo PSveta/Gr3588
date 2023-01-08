@@ -1,7 +1,4 @@
-﻿// Задача N30 Напишите программу, которая выводит массив из 8 элементов, заполненный нулями и единицами в случайном порядке.
-//Например: [1,0,1,1,0,1,0,0]
-
-int ReadData(string msg)
+﻿int ReadData(string msg)
 {
     Console.WriteLine(msg);
     return int.Parse(Console.ReadLine() ?? "0");
