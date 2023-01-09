@@ -39,7 +39,7 @@ int CountEven(int[] arr)
     int res = 0;
     for (int i = 0; i < arr.Length; i++)
     {
-        if (arr[i]%2 ==0);
+        if (arr[i]%2 ==0)
         res ++ ;
     }
    return res;
