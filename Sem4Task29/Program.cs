@@ -43,4 +43,5 @@ int arrLen = ReadData("Введите длину массива.");
 int minBorder = ReadData("Введите минимальную границу массива:");
 int maxBorder = ReadData("Введите максимальную границу массива:");
 int[] arr = GenArr(arrLen, minBorder, maxBorder);
-PrintArr(arr);
+PrintData("Сгенерированный массив: ", arr);
+

@@ -3,7 +3,9 @@
     // -1, -7, 567, 89, 223-> 3
    
 
-int num = ReadData("Введите число:");
+int num = ReadData("Введите количество число:");
+int res = CountPositivNum(num);
+PrintData("Количество чисел больше 0: " + res);
 
 
 
@@ -22,12 +24,12 @@ void PrintData(string res)
 
 // Метод проверяет количество чисел больше 0
 
-int CountPosNum(int num)
+int CountPositivNum(int num)
 {
     int res = 0; 
-    while (num > 0);
+    while (num > 0)
     {
-        if (ReadData("Введите число") > 0) res ++;
+        if (ReadData("Введите число: ") > 0) res ++;
              num = num - 1;
     }
 return res;
